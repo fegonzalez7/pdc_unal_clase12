@@ -13,7 +13,7 @@ def <funcion_recursiva>(parametros):
 ```
 **Ejemplo 1:** Factorial. Crear un programa que permita calcular el factorial de un número n entero positvo dado.
 
-$$n! = 1*2*3* \dots * (n-1) * n$$
+$$ n! = 1*2*3* \dots * (n-1) * n $$
 
 ```python
 def factorial(n : int )-> int:
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 **Ejemplo 2:** Fibonacci. Crear un programa que permita calcular la secuencia de Fibonacci hasta número n entero positvo dado.
 
 $$f_0 = 0, \ f_1=1 \longrightarrow f_n= f_{n-1} + f_{n-2}$$
-$$1 \ 1 \ 2 \ 3 \ 5 \ 8 \ 13 \ 21 \ \dots$$
+$$ 1 \ 1 \ 2 \ 3 \ 5 \ 8 \ 13 \ 21 \ \dots $$
 
 
 ```python
