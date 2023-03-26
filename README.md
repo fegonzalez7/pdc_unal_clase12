@@ -13,7 +13,7 @@ def <funcion_recursiva>(parametros):
 ```
 **Ejemplo 1:** Factorial. Crear un programa que permita calcular el factorial de un número n entero positvo dado.
 
-$$n! = 1*2*3* \dots * (n-1) * n$$
+$$ n! = 1*2*3* \dots * (n-1) * n $$
 
 ```python
 def factorial(n : int )-> int:
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 **Ejemplo 2:** Fibonacci. Crear un programa que permita calcular la secuencia de Fibonacci hasta número n entero positvo dado.
 
 $$f_0 = 0, \ f_1=1 \longrightarrow f_n= f_{n-1} + f_{n-2}$$
-$$1 \ 1 \ 2 \ 3 \ 5 \ 8 \ 13 \ 21 \ \dots$$
+$$ 1 \ 1 \ 2 \ 3 \ 5 \ 8 \ 13 \ 21 \ \dots $$
 
 
 ```python
@@ -212,4 +212,8 @@ Realice pruebas para calcular fibonacci con iteración o con recursión. Determi
 
 6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalon. Dejar enlace en el repo.
 
+<<<<<<< HEAD
 **bonus:** Si entran a mi [perfil](https://www.linkedin.com/in/felipegonzalezroldan/) y me envian solicitud quizá los acepte, y aquellos que acepte tal vez les deje recomendación.
+=======
+### Argumentos *arg y **karg
+>>>>>>> 0aade13f08d9fb87295426da92fe095e78f131df
