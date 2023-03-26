@@ -15,6 +15,8 @@ def <funcion_recursiva>(parametros):
 
 $$ n! = 1*2*3* \dots * (n-1) * n $$
 
+[![image.png](https://i.postimg.cc/kXrkjJkX/image.png)](https://postimg.cc/Yj3n0HrJ)
+
 ```python
 def factorial(n : int )-> int:
   i : int = 1
@@ -211,9 +213,3 @@ Realice pruebas para calcular fibonacci con iteración o con recursión. Determi
 5. Crear cuenta en [stackoverflow](https://stackoverflow.com/) y adjuntar imagen en el repo
 
 6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalon. Dejar enlace en el repo.
-
-<<<<<<< HEAD
-**bonus:** Si entran a mi [perfil](https://www.linkedin.com/in/felipegonzalezroldan/) y me envian solicitud quizá los acepte, y aquellos que acepte tal vez les deje recomendación.
-=======
-### Argumentos *arg y **karg
->>>>>>> 0aade13f08d9fb87295426da92fe095e78f131df
