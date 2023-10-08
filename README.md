@@ -155,7 +155,7 @@ if __name__ == "__main__":
   print("La suma de " + str(a) + " y " + str(b) + " es " + str(suma))
 ```
 
-**Ejercicio 4:** Cree una función que reciba dos números y un parametro con el cual se decida si regresa el mayor o el menor, por defecto debe regresar el mayor.
+**Ejercicio 3:** Cree una función que reciba dos números y un parametro con el cual se decida si regresa el mayor o el menor, por defecto debe regresar el mayor.
 
 ### Argumentos *args y **kwargs
 **Spoiler:** Esto implica un pequeño viaje al futuro, ya que se van a tocar temas como tuplas y diccionarios. Sin embargo, es sólo lo básico.
