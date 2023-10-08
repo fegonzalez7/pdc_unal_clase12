@@ -157,14 +157,14 @@ if __name__ == "__main__":
 
 **Ejercicio 4:** Cree una función que reciba dos números y un parametro con el cual se decida si regresa el mayor o el menor, por defecto debe regresar el mayor.
 
-### Argumentos *arg y **karg
-**spoiler:** Esto implica un pequeño viaje al futuro, ya que se van a tocar temas como tuplas y diccionarios, sin embargo es solo lo básico.
+### Argumentos *args y **kwargs
+**Spoiler:** Esto implica un pequeño viaje al futuro, ya que se van a tocar temas como tuplas y diccionarios. Sin embargo, es sólo lo básico.
 
-Para resolver el problema de los argumentos en python se pueden definir funciones con los argumentos <i>*args</i> y <i>**kwargs</i>:
+Para resolver el problema de los argumentos en Python se pueden definir funciones con los argumentos <i>*args</i> y <i>**kwargs</i>:
 
 + <i>*args</i>: La función recibe *n* argumentos sin nombre y los guarda en una tupla (arreglo inmutable de objetos). *args* es un identificador cualquiera, lo impotante en el operador *.
 
-+ <i>**kwargs</i>: La función recibe *n* argumentos con nombre y los guarda en un diccionario (arreglo de objetos con identificador). *kargs* es un identificador cualquiera, lo impotante en el operador **.
++ <i>**kwargs</i>: La función recibe *n* argumentos con nombre y los guarda en un diccionario (arreglo de objetos con identificador). *kwargs* es un identificador cualquiera, lo impotante en el operador **.
 
 
 **Ejemplo 5:** Función para sumar n números.
