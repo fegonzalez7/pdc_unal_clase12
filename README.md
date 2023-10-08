@@ -157,7 +157,7 @@ if __name__ == "__main__":
 
 **Ejercicio 3:** Cree una función que reciba dos números y un parametro con el cual se decida si regresa el mayor o el menor, por defecto debe regresar el mayor.
 
-### Argumentos *args y **kwargs
+### Argumentos no definidos (*args y **kwargs)
 **Spoiler:** Esto implica un pequeño viaje al futuro, ya que se van a tocar temas como tuplas y diccionarios. Sin embargo, es sólo lo básico.
 
 Para resolver el problema de los argumentos en Python se pueden definir funciones con los argumentos <i>*args</i> y <i>**kwargs</i>:
@@ -192,8 +192,8 @@ if __name__ == "__main__":
 ## Reto 9
 Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo y subalo al canal reto_9 en slack.
 
-1. De los retos anteriores seleciones 3 funciones y escribalas en forma de lambdas.
-2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
+1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
+2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
 3. Escriba una función recursiva para calcular la operación de la potencia.
 4. Utilice la siguiente plantilla de code para contar el tiempo:
 ```python
