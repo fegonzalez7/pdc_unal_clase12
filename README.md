@@ -13,8 +13,6 @@ def <funcion_recursiva>(parametros):
 ```
 **Ejemplo 1:** Factorial. Crear un programa que permita calcular el factorial de un número n entero positvo dado.
 
-$$ n! = 1*2*3* \dots * (n-1) * n $$
-
 [![image.png](https://i.postimg.cc/kXrkjJkX/image.png)](https://postimg.cc/Yj3n0HrJ)
 
 ```python
@@ -28,24 +26,24 @@ def factorial(n : int )-> int:
 
 if __name__ == "__main__":
   num = int(input("Ingrese numero: "))
-  factorialDeNum = factorial(n)
-  print("El factorial de " + str(n) + " es " + str(factorialDeNum))
+  factorial_de_num = factorial(n)
+  print("El factorial de " + str(n) + " es " + str(factorial_de_num))
 ```
 
 ```python
-def factorialRecursivo(n : int )-> int:
+def factorial_recursivo(n : int )-> int:
   print(n)
   # Caso base 
   if n == 1: 
     return 1
   else:
     # Condicion de la funcion recursiva
-    return n*factorialRecursivo(n-1)
+    return n*factorial_recursivo(n-1)
 
 if __name__ == "__main__":
   num = int(input("Ingrese numero: "))
-  factorialDeNum = factorialRecursivo(num)
-  print("El factorial de " + str(num) + " es " + str(factorialDeNum))
+  factorial_de_num = factorial_recursivo(num)
+  print("El factorial de " + str(num) + " es " + str(factorial_de_num))
 ```
 
 **Ejemplo 2:** Fibonacci. Crear un programa que permita calcular la secuencia de Fibonacci hasta número n entero positvo dado.
@@ -62,34 +60,34 @@ def fibo(n : int )-> int:
   n2 : int = 1
   while(i <= n):
     # Condicion
-    sumFibo = n1 + n2
-    print(sumFibo)
+    sum_fibo = n1 + n2
+    print(sum_fibo)
     # Actualizacion
     n1 = n2
-    n2 = sumFibo
+    n2 = sum_fibo
     i += 1
-  return sumFibo
+  return sum_fibo
 
 if __name__ == "__main__":
   num = int(input("Ingrese numero: "))
-  serieFibo = fibo(num)
-  print("La serie de Fibonacci hasta " + str(num) + " es " + str(serieFibo))
+  serie_fibo = fibo(num)
+  print("La serie de Fibonacci hasta " + str(num) + " es " + str(serie_fibo))
 ```
 
 
 ```python
-def fiboRecursivo(n : int )-> int:
+def fibo_recursivo(n : int )-> int:
   if n <=1:
     # caso base
     return 1
   else:
     # condicion
-    return fiboRecursivo(n-1)+fiboRecursivo(n-2)  
+    return fibo_recursivo(n-1)+fibo_recursivo(n-2)  
 
 if __name__ == "__main__":
   num = int(input("Ingrese numero: "))
-  serieFibo = fiboRecursivo(num)
-  print("La serie de Fibonacci hasta " + str(num) + " es " + str(serieFibo))
+  serie_fibo = fibo_recursivo(num)
+  print("La serie de Fibonacci hasta " + str(num) + " es " + str(serie_fibo))
 ```
 
 **Ejercicio 1:** Cree una función que permita calcular el Máximo Comun Divisor de dos números dados (a y b).
@@ -106,13 +104,13 @@ lambda <argumentos>: <expresion>
 
 **Ejemplo 3:** Función para sumar dos números.
 ```python
-def sumarDosNumeros(a : int, b : int )-> int:
+def sumar_dos_numeros(a : int, b : int )-> int:
   return a + b
 
 if __name__ == "__main__":
   a = int(input("Ingrese numero a: "))
   b = int(input("Ingrese numero b: "))
-  suma = sumarDosNumeros(a, b)
+  suma = sumar_dos_numeros(a, b)
   print("La suma de " + str(a) + " y " + str(b) + " es " + str(suma))
 ```
 
@@ -120,8 +118,8 @@ if __name__ == "__main__":
 if __name__ == "__main__":
   a = int(input("Ingrese numero a: "))
   b = int(input("Ingrese numero b: "))
-  sumaFuncion = lambda a, b: a + b
-  suma = sumaFuncion(a, b)
+  suma_funcion = lambda a, b: a + b
+  suma = suma_funcion(a, b)
   print("La suma de " + str(a) + " y " + str(b) + " es " + str(suma))
 ```
 
@@ -143,15 +141,15 @@ En ocasiones ciertos argumentos vienen definidos con valores por defecto, de ese
 
 **Ejemplo 4:** Función para sumar dos números con un argumento por defecto.
 ```python
-def sumarDosNumeros(a : int, b : int = 10)-> int:
+def sumar_dos_numeros(a : int, b : int = 10)-> int:
   return a + b
 
 if __name__ == "__main__":
   a = int(input("Ingrese numero a: "))
   b = int(input("Ingrese numero b: "))
-  suma = sumarDosNumeros(a)
+  suma = sumar_dos_numeros(a)
   print("La suma de " + str(a) + " y " + str(10) + " es " + str(suma))
-  suma = sumarDosNumeros(a, b)
+  suma = sumar_dos_numeros(a, b)
   print("La suma de " + str(a) + " y " + str(b) + " es " + str(suma))
 ```
 
@@ -170,7 +168,7 @@ Para resolver el problema de los argumentos en python se pueden definir funcione
 **Ejemplo 5:** Función para sumar n números.
 
 ```python
-def sumarNumeros(*args)-> int:
+def sumar_numeros(*args)-> int:
   suma : int = 0
   # Los argumentos están almacenados en la tupla args
   for num in args:
@@ -183,14 +181,14 @@ if __name__ == "__main__":
   c = int(input("Ingrese numero c: "))
   d = int(input("Ingrese numero d: "))
   e = int(input("Ingrese numero e: "))
-  print("La suma de dos " + str(sumarNumeros(a, b)))
-  print("La suma de tres " + str(sumarNumeros(a, b, c)))
-  print("La suma de cuatro " + str(sumarNumeros(a, b, c, d)))
-  print("La suma de cinco " + str(sumarNumeros(a, b, c, d, e)))
+  print("La suma de dos " + str(sumar_numeros(a, b)))
+  print("La suma de tres " + str(sumar_numeros(a, b, c)))
+  print("La suma de cuatro " + str(sumar_numeros(a, b, c, d)))
+  print("La suma de cinco " + str(sumar_numeros(a, b, c, d, e)))
 ```
 
-## Reto 9
-Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo y subalo al canal reto_9 en slack.
+## Reto 8
+Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo y subalo al canal reto_08 en slack.
 
 1. De los retos anteriores seleciones 3 funciones y escribalas en forma de lambdas.
 2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
