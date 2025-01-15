@@ -153,16 +153,16 @@ if __name__ == "__main__":
   print("La suma de " + str(a) + " y " + str(b) + " es " + str(suma))
 ```
 
-**Ejercicio 4:** Cree una función que reciba dos números y un parametro con el cual se decida si regresa el mayor o el menor, por defecto debe regresar el mayor.
+**Ejercicio 3:** Cree una función que reciba dos números y un parametro con el cual se decida si regresa el mayor o el menor, por defecto debe regresar el mayor.
 
-### Argumentos *arg y **karg
-**spoiler:** Esto implica un pequeño viaje al futuro, ya que se van a tocar temas como tuplas y diccionarios, sin embargo es solo lo básico.
+### Argumentos no definidos (*args y **kwargs)
+**Spoiler:** Esto implica un pequeño viaje al futuro, ya que se van a tocar temas como tuplas y diccionarios. Sin embargo, es sólo lo básico.
 
-Para resolver el problema de los argumentos en python se pueden definir funciones con los argumentos <i>*args</i> y <i>**kwargs</i>:
+Para resolver el problema de los argumentos en Python se pueden definir funciones con los argumentos <i>*args</i> y <i>**kwargs</i>:
 
 + <i>*args</i>: La función recibe *n* argumentos sin nombre y los guarda en una tupla (arreglo inmutable de objetos). *args* es un identificador cualquiera, lo impotante en el operador *.
 
-+ <i>**kwargs</i>: La función recibe *n* argumentos con nombre y los guarda en un diccionario (arreglo de objetos con identificador). *kargs* es un identificador cualquiera, lo impotante en el operador **.
++ <i>**kwargs</i>: La función recibe *n* argumentos con nombre y los guarda en un diccionario (arreglo de objetos con identificador). *kwargs* es un identificador cualquiera, lo impotante en el operador **.
 
 
 **Ejemplo 5:** Función para sumar n números.
@@ -190,8 +190,8 @@ if __name__ == "__main__":
 ## Reto 8
 Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo y subalo al canal reto_08 en slack.
 
-1. De los retos anteriores seleciones 3 funciones y escribalas en forma de lambdas.
-2. De los retos anteriores seleciones 3 funciones y escribalas con argumentos no definidos (*args).
+1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
+2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
 3. Escriba una función recursiva para calcular la operación de la potencia.
 4. Utilice la siguiente plantilla de code para contar el tiempo:
 ```python
@@ -210,4 +210,4 @@ Realice pruebas para calcular fibonacci con iteración o con recursión. Determi
 
 5. Crear cuenta en [stackoverflow](https://stackoverflow.com/) y adjuntar imagen en el repo
 
-6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalon. Dejar enlace en el repo.
+6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
